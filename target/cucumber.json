@@ -1,0 +1,480 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-19T21:50:09.517Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5970916462,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "user must be able to checkout",
+        "description": "",
+        "id": "lens-checkout;user-must-be-able-to-checkout;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 613595426,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1013332774,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 170281,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user clicks on Dailies AquaComfort Plus",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dailies AquaComfort Plus",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyLensSelectionpage.Verifu_clicks_on(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 40588,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 431995111,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 94704,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user must be navigated to Dailies AquaComfort Plus selection page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dailies AquaComfort Plus",
+                  "offset": 26
+                }
+              ],
+              "location": "VerifyLensSelectionpage.user_must_be_navigated_to_selection_page(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 27992,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 471249793,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 65314,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user adds contact lens prescription for -15.00 and -14.50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-15.00",
+                  "offset": 40
+                },
+                {
+                  "val": "-14.50",
+                  "offset": 51
+                }
+              ],
+              "location": "VerifyLensSelectionpage.user_contact_lens_prescription_for_and(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 30324,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1023068652,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 74644,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user click addtobasket_button",
+            "match": {
+              "location": "VerifyLensChecout.userclick_addtobasketbutton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 45720,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 455790139,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 125495,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "Dailies AquaComfort Plus details is displayed on cartpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dailies AquaComfort Plus",
+                  "offset": 0
+                }
+              ],
+              "location": "VerifyLensChecout.details_is_displayed_on_cartpage(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 40121,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130481475,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 90972,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user click on checkoutbutton",
+            "match": {
+              "location": "VerifyLensChecout.user_click_on_checkoutbutton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 27058,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17548746,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 63913,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user is navigated to siginpage",
+            "match": {
+              "location": "VerifyLensChecout.user_is_navigated_to_siginpage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 25658,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Lens checkout",
+    "description": "",
+    "id": "lens-checkout",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/VerifyLensCheckout.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-19T21:50:19.659Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4192561751,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Product details Page must be displayed",
+        "description": "",
+        "id": "validated-product-detail-page;product-details-page-must-be-displayed;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 611376175,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1156723419,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 128293,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user clicks on Dailies AquaComfort Plus",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dailies AquaComfort Plus",
+                  "offset": 15
+                }
+              ],
+              "location": "VerifyLensSelectionpage.Verifu_clicks_on(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 75110,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 403959851,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 136224,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user must be navigated to Dailies AquaComfort Plus selection page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dailies AquaComfort Plus",
+                  "offset": 26
+                }
+              ],
+              "location": "VerifyLensSelectionpage.user_must_be_navigated_to_selection_page(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 34523,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 443145022,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 76043,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeEveryStep(Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user adds contact lens prescription for -15.00 and -14.50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-15.00",
+                  "offset": 40
+                },
+                {
+                  "val": "-14.50",
+                  "offset": 51
+                }
+              ],
+              "location": "VerifyLensSelectionpage.user_contact_lens_prescription_for_and(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 38255,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterEveryStep(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validated Product detail page",
+    "description": "",
+    "id": "validated-product-detail-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/VerifyLensSelectionpage.feature",
+    "tags": []
+  }
+]

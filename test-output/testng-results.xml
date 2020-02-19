@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17621" started-at="2020-02-19T21:50:08Z" finished-at="2020-02-19T21:50:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@148080bb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="17621" started-at="2020-02-19T21:50:08Z" finished-at="2020-02-19T21:50:26Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@148080bb]" name="setUpClass" is-config="true" duration-ms="166" started-at="2020-02-19T21:50:08Z" finished-at="2020-02-19T21:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@148080bb]" name="runScenario" duration-ms="10477" started-at="2020-02-19T21:50:09Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-19T21:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user must be able to checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Lens checkout"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@148080bb]" name="runScenario" duration-ms="6813" started-at="2020-02-19T21:50:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-19T21:50:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Product details Page must be displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validated Product detail page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@148080bb]" name="tearDownClass" is-config="true" duration-ms="93" started-at="2020-02-19T21:50:26Z" finished-at="2020-02-19T21:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
