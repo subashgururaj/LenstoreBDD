@@ -31,7 +31,7 @@ public class Hook extends BaseUtil{
     public void InitializeTest(Scenario scenario) {
 
 
-        //scenarioDef = base.features.createNode(scenario.getName());
+        scenarioDef = base.features.createNode(scenario.getName());
 
         WebDriverManager.chromedriver().version("79.0").setup();
 		ChromeOptions options = new ChromeOptions();

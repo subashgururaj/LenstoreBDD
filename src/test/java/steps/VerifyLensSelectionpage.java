@@ -2,6 +2,8 @@ package steps;
 
 
 
+import com.aventstack.extentreports.GherkinKeyword;
+
 import Base.BaseUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -22,13 +24,14 @@ public class VerifyLensSelectionpage extends BaseUtil {
 	
 
 	@Given("^user clicks on (.+)$")
-    public void Verifu_clicks_on(String lens) throws Throwable {
-    	//Homepage.verify_click_onProduct(lens);
+    public void Verify_clicks_on(String lens) throws Throwable {
+		scenarioDef.createNode(new GherkinKeyword("Given"), "User Click on Lens");
 		Homepage.verify_click_onProduct(lens);
     }
 
 	@Then("^user must be navigated to (.+) selection page$")
     public void user_must_be_navigated_to_selection_page(String lens) throws Throwable {
+		scenarioDef.createNode(new GherkinKeyword("Then"), "User Navigated to Lens Selection Page");
     	lensdetailspage.verify_Lens_selection_page(lens);
     	
     	
@@ -37,6 +40,7 @@ public class VerifyLensSelectionpage extends BaseUtil {
 	
 	@And("^user adds contact lens prescription for (.+) and (.+)$")
     public void user_contact_lens_prescription_for_and(String lefteyepowervalue, String righteyepowervalue) throws Throwable {
+		scenarioDef.createNode(new GherkinKeyword("And"), "User Add Prescription");
 		lensdetailspage.select_eye_power(lefteyepowervalue,righteyepowervalue);
     }
 	

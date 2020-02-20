@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17621" started-at="2020-02-19T21:50:08Z" finished-at="2020-02-19T21:50:26Z">
+  <suite name="Suite" duration-ms="39340" started-at="2020-02-20T06:22:18Z" finished-at="2020-02-20T06:22:58Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@148080bb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@71318ec4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="17621" started-at="2020-02-19T21:50:08Z" finished-at="2020-02-19T21:50:26Z">
+    <test name="Lesnstore Automation" duration-ms="39340" started-at="2020-02-20T06:22:18Z" finished-at="2020-02-20T06:22:58Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@148080bb]" name="setUpClass" is-config="true" duration-ms="166" started-at="2020-02-19T21:50:08Z" finished-at="2020-02-19T21:50:09Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@71318ec4]" name="setUpClass" is-config="true" duration-ms="119" started-at="2020-02-20T06:22:19Z" finished-at="2020-02-20T06:22:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@148080bb]" name="runScenario" duration-ms="10477" started-at="2020-02-19T21:50:09Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-19T21:50:19Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@71318ec4]" name="runScenario" duration-ms="17400" started-at="2020-02-20T06:22:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-20T06:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@148080bb]" name="runScenario" duration-ms="6813" started-at="2020-02-19T21:50:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-19T21:50:26Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@71318ec4]" name="runScenario" duration-ms="21431" started-at="2020-02-20T06:22:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-20T06:22:58Z">
           <params>
             <param index="0">
               <value>
@@ -46,11 +46,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@148080bb]" name="tearDownClass" is-config="true" duration-ms="93" started-at="2020-02-19T21:50:26Z" finished-at="2020-02-19T21:50:26Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@71318ec4]" name="tearDownClass" is-config="true" duration-ms="110" started-at="2020-02-20T06:22:58Z" finished-at="2020-02-20T06:22:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Lesnstore Automation -->
+  </suite> <!-- Suite -->
 </testng-results>
