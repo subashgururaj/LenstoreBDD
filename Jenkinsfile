@@ -3,7 +3,7 @@ node {
 		git "https://github.com/subashgururaj/LenstoreBDD"
 		}
 	stage ('Build'){
-	   sh "mvn clean install"
+	   sh "mvn clean compile"
        }
        
        stage ('Test'){
