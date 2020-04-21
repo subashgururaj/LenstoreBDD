@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-20T06:22:19.475Z",
+        "start_timestamp": "2020-04-21T13:21:06.342Z",
         "before": [
           {
             "result": {
-              "duration": 10762667861,
+              "duration": 55351143104,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 611955130,
+              "duration": 584937287,
               "status": "passed"
             },
             "match": {
@@ -35,13 +35,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1976579124,
+              "duration": 580842592,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 167016,
+                  "duration": 174947,
                   "status": "passed"
                 },
                 "match": {
@@ -58,12 +58,12 @@
                   "offset": 15
                 }
               ],
-              "location": "VerifyLensSelectionpage.Verifu_clicks_on(String)"
+              "location": "VerifyLensSelectionpage.Verify_clicks_on(String)"
             },
             "after": [
               {
                 "result": {
-                  "duration": 93771,
+                  "duration": 43853,
                   "status": "passed"
                 },
                 "match": {
@@ -75,13 +75,13 @@
           },
           {
             "result": {
-              "duration": 154467778,
+              "duration": 100240493,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 190342,
+                  "duration": 57849,
                   "status": "passed"
                 },
                 "match": {
@@ -103,7 +103,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 39188,
+                  "duration": 69979,
                   "status": "passed"
                 },
                 "match": {
@@ -115,13 +115,14 @@
           },
           {
             "result": {
-              "duration": 595763034,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[@id\u003d\u0027option1\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.163)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027X03163\u0027, ip: \u0027192.168.0.10\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\JEYABA~1.GEO\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 179c47a93a0576f0375597a7c948fb03\n*** Element info: {Using\u003dxpath, value\u003d//select[@id\u003d\u0027option1\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:396)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.getTagName(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:46)\r\n\tat pages.lensdetailspage.select_eye_power(lensdetailspage.java:53)\r\n\tat steps.VerifyLensSelectionpage.user_contact_lens_prescription_for_and(VerifyLensSelectionpage.java:44)\r\n\tat ✽.user adds contact lens prescription for -15.00 and -14.50(file:src/test/java/features/VerifyLensCheckout.feature:8)\r\n",
+              "duration": 44830780,
+              "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 97970,
+                  "duration": 103103,
                   "status": "passed"
                 },
                 "match": {
@@ -147,7 +148,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 43387,
+                  "duration": 30790,
                   "status": "passed"
                 },
                 "match": {
@@ -159,14 +160,14 @@
           },
           {
             "result": {
-              "duration": 2390765168,
-              "status": "passed"
+              "duration": 4199,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 94704,
-                  "status": "passed"
+                  "duration": 9797,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "Hook.BeforeEveryStep(Scenario)"
@@ -181,8 +182,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 59715,
-                  "status": "passed"
+                  "duration": 2799,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "Hook.AfterEveryStep(Scenario)"
@@ -193,14 +194,14 @@
           },
           {
             "result": {
-              "duration": 479627155,
-              "status": "passed"
+              "duration": 2333,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 151154,
-                  "status": "passed"
+                  "duration": 2799,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "Hook.BeforeEveryStep(Scenario)"
@@ -221,8 +222,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 54117,
-                  "status": "passed"
+                  "duration": 3732,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "Hook.AfterEveryStep(Scenario)"
@@ -233,14 +234,14 @@
           },
           {
             "result": {
-              "duration": 113002708,
-              "status": "passed"
+              "duration": 2333,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 91905,
-                  "status": "passed"
+                  "duration": 2333,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "Hook.BeforeEveryStep(Scenario)"
@@ -255,8 +256,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 32190,
-                  "status": "passed"
+                  "duration": 2332,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "Hook.AfterEveryStep(Scenario)"
@@ -267,14 +268,14 @@
           },
           {
             "result": {
-              "duration": 18645543,
-              "status": "passed"
+              "duration": 2333,
+              "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 75111,
-                  "status": "passed"
+                  "duration": 2332,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "Hook.BeforeEveryStep(Scenario)"
@@ -289,8 +290,8 @@
             "after": [
               {
                 "result": {
-                  "duration": 33123,
-                  "status": "passed"
+                  "duration": 2333,
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "Hook.AfterEveryStep(Scenario)"
@@ -307,174 +308,6 @@
     "id": "lens-checkout",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/VerifyLensCheckout.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-02-20T06:22:36.603Z",
-        "before": [
-          {
-            "result": {
-              "duration": 18147447534,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.InitializeTest(Scenario)"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "Product details Page must be displayed",
-        "description": "",
-        "id": "validated-product-detail-page;product-details-page-must-be-displayed;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 838836677,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.TearDownTest(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2026221884,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 114765,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "Hook.BeforeEveryStep(Scenario)"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "user clicks on Dailies AquaComfort Plus",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Dailies AquaComfort Plus",
-                  "offset": 15
-                }
-              ],
-              "location": "VerifyLensSelectionpage.Verifu_clicks_on(String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 29391,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "Hook.AfterEveryStep(Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 75924825,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 90505,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "Hook.BeforeEveryStep(Scenario)"
-                }
-              }
-            ],
-            "line": 5,
-            "name": "user must be navigated to Dailies AquaComfort Plus selection page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Dailies AquaComfort Plus",
-                  "offset": 26
-                }
-              ],
-              "location": "VerifyLensSelectionpage.user_must_be_navigated_to_selection_page(String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 30324,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "Hook.AfterEveryStep(Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 338279415,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 72311,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "Hook.BeforeEveryStep(Scenario)"
-                }
-              }
-            ],
-            "line": 6,
-            "name": "user adds contact lens prescription for -15.00 and -14.50",
-            "match": {
-              "arguments": [
-                {
-                  "val": "-15.00",
-                  "offset": 40
-                },
-                {
-                  "val": "-14.50",
-                  "offset": 51
-                }
-              ],
-              "location": "VerifyLensSelectionpage.user_contact_lens_prescription_for_and(String,String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 50384,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "Hook.AfterEveryStep(Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          }
-        ]
-      }
-    ],
-    "name": "Validated Product detail page",
-    "description": "",
-    "id": "validated-product-detail-page",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/features/VerifyLensSelectionpage.feature",
     "tags": []
   }
 ]
