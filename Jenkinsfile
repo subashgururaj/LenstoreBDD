@@ -10,7 +10,5 @@ node {
 	   sh "mvn test"
        }
        	
-		stage ('Report'){
-		}
-		}
+		
 }
