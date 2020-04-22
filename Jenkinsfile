@@ -14,15 +14,24 @@ pipeline {
       steps {
         sh 'mvn clean'
       }
+	  
     }
     stage('Test') {
       steps {
         sh 'mvn test'
       }
+	  post{
+	  always{
+	  //archiveArtifacts "cucumber-html-reports/*"
+	  archiveArtifacts "cucumber.json"
+	  }
+	  
+	  }
     }
     
     stage('Cucumber Reports') {
       steps {
+      hygieiaTestPublishStep buildStatus: 'Success', testApplicationName: 'WebAutomationProj', testEnvironmentName: 'preprod', testFileNamePattern: '**/cucumber.json', testResultsDirectory: 'target', testType: 'Unit'
         cucumber buildStatus: "UNSTABLE",
         fileIncludePattern: "**/cucumber.json",
         jsonReportDirectory: 'target'
