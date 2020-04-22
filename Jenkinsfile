@@ -23,7 +23,7 @@ pipeline {
 	  post{
 	  always{
 	  //archiveArtifacts "cucumber-html-reports/*"
-	  archiveArtifacts "cucumber.json"
+	  archiveArtifacts "target/cucumber.json"
 	  }
 	  
 	  }
