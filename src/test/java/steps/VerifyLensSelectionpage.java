@@ -26,6 +26,7 @@ public class VerifyLensSelectionpage extends BaseUtil {
 	@Given("^user clicks on (.+)$")
     public void Verify_clicks_on(String lens) throws Throwable {
 		/*
+		 * adding neww line of comment to 
 		 * scenarioDef.createNode(new GherkinKeyword("Given"), "User Click on Lens");
 		 * Homepage.verify_click_onProduct(lens);
 		 */
