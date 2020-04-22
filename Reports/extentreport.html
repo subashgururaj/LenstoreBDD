@@ -52,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Apr 22, 2020 09:11:28 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Apr 22, 2020 11:33:27 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -68,7 +68,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -111,10 +110,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -125,7 +124,7 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>4</span>  passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>10</span>  passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, 
@@ -148,91 +147,113 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Lens Feature</span>
-						<span class='test-time'>Apr 22, 2020 09:12:38 AM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Apr 22, 2020 11:33:44 AM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 22, 2020 09:12:38 AM</span>
-	<span class='label end-time'>Apr 22, 2020 09:14:14 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 36s+743ms</span>
+	<span class='label start-time'>Apr 22, 2020 11:33:44 AM</span>
+	<span class='label end-time'>Apr 22, 2020 11:35:17 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 32s+668ms</span>
 </div>
 <ul class='collapsible node-list' data-collapsible='accordion'>
-	<li class='node level-1  fail' status='fail' test-id='2'>
+	<li class='node level-1  pass' status='pass' test-id='2'>
 		<div class='collapsible-header'>
 			<div class='node-name'>user must be able to checkout</div>
-			<span class='node-time'>Apr 22, 2020 09:12:38 AM</span>
-			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
-			<span class='test-status right fail'>fail</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='fail'>
-							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-							<td class='timestamp'>09:13:32</td>
-							<td class='step-details'>
-									details
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<ul class='screenshots'>
-					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='E:\Hema\LenstoreBDD//Reports//screenshot.png' src='E:\Hema\LenstoreBDD//Reports//screenshot.png'></li>
-				</ul>
-			</div>
+			<span class='node-time'>Apr 22, 2020 11:33:44 AM</span>
+			&middot; <span class='node-duration'>0h 0m 8s+463ms</span>
+			<span class='test-status right pass'>pass</span>
 		</div>
 		<ul class='collapsible node-list' data-collapsible='accordion'>
 	<li class='node level-2 leaf pass' status='pass' test-id='3'>
 		<div class='collapsible-header'>
 			<div class='node-name'>User Click on Lens</div>
-			<span class='node-time'>Apr 22, 2020 09:12:38 AM</span>
+			<span class='node-time'>Apr 22, 2020 11:33:44 AM</span>
 			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
 			<span class='test-status right pass'>pass</span>
 		</div>
 	</li>
-		</ul>
-	</li>
-	<li class='node level-1  pass' status='pass' test-id='4'>
+	<li class='node level-2 leaf pass' status='pass' test-id='4'>
 		<div class='collapsible-header'>
-			<div class='node-name'>Product details Page must be displayed</div>
-			<span class='node-time'>Apr 22, 2020 09:14:10 AM</span>
-			&middot; <span class='node-duration'>0h 0m 4s+153ms</span>
+			<div class='node-name'>User Navigated to Lens Selection Page</div>
+			<span class='node-time'>Apr 22, 2020 11:33:49 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
 			<span class='test-status right pass'>pass</span>
 		</div>
-		<ul class='collapsible node-list' data-collapsible='accordion'>
+	</li>
 	<li class='node level-2 leaf pass' status='pass' test-id='5'>
 		<div class='collapsible-header'>
-			<div class='node-name'>User Click on Lens</div>
-			<span class='node-time'>Apr 22, 2020 09:14:10 AM</span>
+			<div class='node-name'>User Add Prescription</div>
+			<span class='node-time'>Apr 22, 2020 11:33:49 AM</span>
 			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
 			<span class='test-status right pass'>pass</span>
 		</div>
 	</li>
 	<li class='node level-2 leaf pass' status='pass' test-id='6'>
 		<div class='collapsible-header'>
-			<div class='node-name'>User Navigated to Lens Selection Page</div>
-			<span class='node-time'>Apr 22, 2020 09:14:14 AM</span>
+			<div class='node-name'>User Click Add To BasketButton</div>
+			<span class='node-time'>Apr 22, 2020 11:33:50 AM</span>
 			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
 			<span class='test-status right pass'>pass</span>
 		</div>
 	</li>
 	<li class='node level-2 leaf pass' status='pass' test-id='7'>
 		<div class='collapsible-header'>
+			<div class='node-name'>Lens Details is displayed</div>
+			<span class='node-time'>Apr 22, 2020 11:33:53 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='8'>
+		<div class='collapsible-header'>
+			<div class='node-name'>User Click On CheckoutButton</div>
+			<span class='node-time'>Apr 22, 2020 11:33:53 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='9'>
+		<div class='collapsible-header'>
+			<div class='node-name'>User is Navigated To SiginPage</div>
+			<span class='node-time'>Apr 22, 2020 11:33:53 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+	</li>
+		</ul>
+	</li>
+	<li class='node level-1  pass' status='pass' test-id='10'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Product details Page must be displayed</div>
+			<span class='node-time'>Apr 22, 2020 11:35:13 AM</span>
+			&middot; <span class='node-duration'>0h 0m 4s+538ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-2 leaf pass' status='pass' test-id='11'>
+		<div class='collapsible-header'>
+			<div class='node-name'>User Click on Lens</div>
+			<span class='node-time'>Apr 22, 2020 11:35:13 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='12'>
+		<div class='collapsible-header'>
+			<div class='node-name'>User Navigated to Lens Selection Page</div>
+			<span class='node-time'>Apr 22, 2020 11:35:17 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='13'>
+		<div class='collapsible-header'>
 			<div class='node-name'>User Add Prescription</div>
-			<span class='node-time'>Apr 22, 2020 09:14:14 AM</span>
+			<span class='node-time'>Apr 22, 2020 11:35:17 AM</span>
 			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
 			<span class='test-status right pass'>pass</span>
 		</div>
@@ -282,19 +303,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Apr 22, 2020 09:11:28 AM</div>
+					<div class='panel-lead'>Apr 22, 2020 11:33:27 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Apr 22, 2020 09:14:26 AM</div>
+			 		<div class='panel-lead'>Apr 22, 2020 11:35:36 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 2m 57s+155ms</div>
+					<div class='panel-lead'>0h 2m 9s+205ms</div>
 				</div>
 			</div>
 		</div>
@@ -306,13 +327,13 @@
 		<script>
 			var statusGroup = {
                 parentCount: 1,
-				passParent: 0,
-				failParent: 1,
+				passParent: 1,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -323,8 +344,8 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 4,
-				passGrandChild: 4,
+				grandChildCount: 10,
+				passGrandChild: 10,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -337,7 +358,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "Lens Feature":96.743
+			        "Lens Feature":92.668
 			};
 		</script>
 	
