@@ -14,18 +14,17 @@ public class NGTestListener implements ITestListener {
 
 	ExtentReportUtil extentReportUtil = new ExtentReportUtil();
 
-	@Override
 	public void onTestStart(ITestResult iTestResult) {
 		System.out.println("On test start");
 	}
 
-	@Override
+	//@Override
 	public void onTestSuccess(ITestResult iTestResult) {
 
 		System.out.println("On test Sucess");
 	}
 
-	@Override
+	//@Override
 	public void onTestFailure(ITestResult iTestResult) {
 		System.out.println("On test failure");
 
@@ -36,17 +35,17 @@ public class NGTestListener implements ITestListener {
 		}
 	}
 
-	@Override
+	//@Override
 	public void onTestSkipped(ITestResult iTestResult) {
 		System.out.println("On test skipped");
 	}
 
-	@Override
+	//@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
 		System.out.println("On test percentage");
 	}
 
-	@Override
+	//@Override
 	public void onStart(ITestContext iTestContext) {
 		System.out.println("On start");
 
@@ -56,7 +55,7 @@ public class NGTestListener implements ITestListener {
 
 	}
 
-	@Override
+	//@Override
 	public void onFinish(ITestContext iTestContext) {
 		System.out.println("On finish");
 		extentReportUtil.FlushReport();
