@@ -15,5 +15,18 @@ pipeline {
         sh 'mvn clean'
       }
     }
+    stage('Test') {
+      steps {
+        sh 'mvn test'
+      }
+    }
+    
+    stage('Cucumber Reports') {
+      steps {
+        cucumber buildStatus: "UNSTABLE",
+        fileIncludePattern: "**/cucumber.json",
+        jsonReportDirectory: 'target'
+      }
+    }
   }
 }
