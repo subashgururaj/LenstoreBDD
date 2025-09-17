@@ -146,7 +146,7 @@ http://localhost:9000
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
-    <version>3.8.1</version>
+    <version>6.1.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
